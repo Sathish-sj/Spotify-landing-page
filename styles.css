@@ -1,0 +1,338 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+/* Navigation Bar */
+
+.spotify-icon{
+    padding: 10px;
+}
+
+.navbar{
+    background-color: black;
+    padding: 20px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 13%;
+}
+
+.nav-item{
+    padding: 0  18px;
+}
+
+.nav-link{
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    padding: 0 300px;
+}
+
+/* Title Section */
+
+.container-fluid{
+
+    padding: 3% 15% 7%;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,207,1) 0%, rgba(145,0,255,0.7458333675266982) 100%);  */
+
+    background-color: #1DB954;
+}
+
+.row{
+    padding-top: 5%;
+}
+
+.title-text{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-top: 10%;
+}
+
+.sign-up-btn{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 30px 20px 20px 0;
+    padding: 0;
+    padding-right: 10px;
+}
+
+
+.sign-up-link{
+    color: black;
+    text-decoration: none;
+}
+
+.sign-up-link:hover{
+    color: #1DB954;
+    text-decoration: none;
+}
+
+
+
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);
+    margin-left: 100px;
+}
+
+/* Feature Section */
+
+#features{
+    padding: 7% 10%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 3%;
+}
+
+.feature-heading{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.f-head{
+    margin-top: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+p{
+    font-family: "Montserrat";
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.f-icon-a{
+    color:rgba(255,0,207,1) ;
+}
+
+.f-icon-b{
+   color: rgba(145,0,255,0.75) ; 
+}
+
+.f-icon-a:hover{
+    color: rgba(145,0,255,0.75) ;
+}
+
+.f-icon-b:hover{
+    color:rgba(255,0,207,1) ;
+}
+
+
+/* Questions section */
+
+#questions{
+    padding: 2% 0;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,207,1) 0%, rgba(145,0,255,0.7458333675266982) 100%); */
+
+    background-color: #1DB954;
+    
+}
+
+.question-heading{
+    color: white;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+.accordion{
+    margin: 1% 15%;
+}
+
+.q-btn{
+    font-family: "Montserrat";
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 30px 20px 20px 0;
+    padding: 0;
+    padding-right: 10px;
+}
+
+.q-btn:hover{
+    text-decoration: none;
+    color: #1DB954;
+}
+
+.strong-green{
+    color: #1db954;
+}
+
+/* Free Trail section  */
+
+.trail{
+    padding: 8% 10%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.trail-heading{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.trail-sub-text{
+    padding: 2%;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.small-text{
+    padding-top: 2%;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+/* Premium Pricing Section  */
+#pricing{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-h2{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.pricing-sub{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-card-header{
+    background-color: #1DB954;
+    color: white;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5; 
+}
+
+.plan-link{
+    text-decoration: none;
+    color: white;
+}
+
+.plan-link:hover{
+    text-decoration: none;
+    color: #1DB954;
+}
+
+/* Download Section  */
+
+.download-div{
+    text-align: center;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,207,1) 0%, rgba(145,0,255,0.7458333675266982) 100%);  */
+    background-color: #1DB954;
+    color: white;
+    padding: 4% 5%;
+}
+
+.download-text{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.Download-btn{
+    margin: 3% 1%;
+    text-decoration: none;
+}
+
+.Download-btn :hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.download-link{
+    color: #1DB954;
+}
+
+/* Footer Section  */
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.icon-footer{
+    padding: 3% 2% 2%;
+}
+
+.icon-footer:hover{
+    color: #1DB954;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-profile{
+    padding: 1% 15%;
+    padding-bottom: 2%;
+}
+
+.icon-footer-profile{
+    padding: 0% 1%;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-footer-profile:hover{
+    color: 	#1DA1F2;
+}
+
+.copyright{
+    color: #1DB954;
+}
